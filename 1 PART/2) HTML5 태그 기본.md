@@ -32,7 +32,7 @@ ex) <h1 title="header">
 <!DOCTYPE html>
 <!-- lang속성은 실제 웹 브라우저가 동작하는 데 어떠한 영향도 끼치지 않는다. 하지만 데이터 네트워크 구축을 위해서는 입력하는 것이 좋다 -->
 <html lang="en"> 
-    <!-- head는body 태그에서 필요한 스타일시트와 자바스크립트를 제공하는 데 사용 -->
+    <!-- head는 body 태그에서 필요한 스타일시트와 자바스크립트를 제공하는 데 사용 -->
 <head>
 
 </head>
@@ -44,7 +44,10 @@ ex) <h1 title="header">
 <!-- 기본적인 HTML5 페이지 -->
 ```
 
+#### head 태그 내부에 넣을 수 있는 태그(기본)
 
+* **title** => 웹 페이지의 제목
+* **link** => 웹 페이지에서 다른 파일을 추가
 
 ## 글자 태그
 
@@ -81,3 +84,13 @@ ex) <h1 title="header">
 * **a** => 앵커태그
 
 >a 태그의 herf 속성을 사용하여 이동하고자 하는 웹 페이지를 지정
+
+
+
+## 목록 태그
+
+* **ul** => 순서가 없는 목록 태그
+* **ol** => 순서가 있는 목록 태그
+* **li** => 목록 요소
+
+![image-20200901224523549](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200901224523549.png) ![image-20200901224611452](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200901224611452.png)
