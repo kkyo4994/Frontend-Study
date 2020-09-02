@@ -31,5 +31,6 @@
 </html>
 ```
 
-<img src="C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200901234624385.png" alt="image-20200901234624385" style="zoom:80%;" /> 
+  
 
+![캡처.PNG](C:\Users\user\Desktop\캡처.PNG) 
