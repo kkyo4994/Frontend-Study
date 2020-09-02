@@ -93,4 +93,17 @@ ex) <h1 title="header">
 * **ol** => 순서가 있는 목록 태그
 * **li** => 목록 요소
 
-![image-20200901224523549](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200901224523549.png) ![image-20200901224611452](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20200901224611452.png)
+
+
+## 입력 양식 태그
+
+=> 입력 양식은 **form 태그를 사용해 생성**한다. 그 안에는 **input 태그를 입력**한다.
+
+* input 태그의 type 속성값
+  * button => 버튼 생성
+  * checkbox => 체크박스 생성
+  * image => 이미지 형태 생성 
+  * password => 비밀번호 입력 양식을 생성
+  * radio => 라디오 버튼을 생성
+  * submit => 제출 버튼을 생성 
+
