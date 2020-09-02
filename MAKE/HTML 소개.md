@@ -31,6 +31,4 @@
 </html>
 ```
 
-  
-
-![캡처.PNG](C:\Users\user\Desktop\캡처.PNG) 
+   
