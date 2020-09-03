@@ -64,3 +64,49 @@
 
 * 아이디 선택자는 **특정한 id 속성을 가지고 있는 태그를 선택할 때 사용**
 
+=> #아이디 / 아이디 속성을 가지고 있는 태그를 선택한다. 아이디 선택자는 특정한 하나의 태그를 선택할 때 사용(웹 페이지 내부에서 중복 x)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Selector Basic</title>
+    <style>
+        #header { width: 500px; margin: 0 auto;
+        background : blue; }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>blue color is pretty</h1>
+    </div>
+</body>
+</html>
+```
+
+* 클래스 선택자는 **특정한 클래스를 가지고 있는 태그를 선택할 때 사용**
+
+=> .클래스 / 특정한 클래스를 가지고 있는 태그를 선택한다. 
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Selector Basic</title>
+    <style>
+        .select { color : bisque; }
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="select">Love ipsum</li>
+        <li>Love ipsum</li>
+    </ul>
+</body>
+</html>
+```
+
+## 속성 선택자
+
+=> **선택자 뒤에 대괄호([ ])를 사용해** 속성과 값을 입력
