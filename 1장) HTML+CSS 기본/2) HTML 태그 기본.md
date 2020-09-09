@@ -106,4 +106,3 @@ ex) <h1 title="header">
   * password => 비밀번호 입력 양식을 생성
   * radio => 라디오 버튼을 생성
   * submit => 제출 버튼을 생성 
-
