@@ -26,7 +26,7 @@
         </li>
     </ul>
     <p>HTML을 더 자세히 알고 싶으면?</p>
-     <a href="https://ko.wikipedia.org/wiki/HTML">여기로 클릭!</a>
+    <a href="https://ko.wikipedia.org/wiki/HTML">여기로 클릭!</a>
 </body>
 </html>
 ```
