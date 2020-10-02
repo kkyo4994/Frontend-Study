@@ -167,9 +167,3 @@ ex) `box-shadow: 40px 10px 10px #4d9fff;`
 
 ex) `box-shadow: 40px 10px 10px 20px #4d9fff;` 
 
-
-
-
-
-
-
