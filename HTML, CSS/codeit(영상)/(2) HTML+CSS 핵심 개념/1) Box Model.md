@@ -166,4 +166,3 @@ ex) `box-shadow: 40px 10px 10px #4d9fff;`
 => 흐림 값 이후에 추가로 설정
 
 ex) `box-shadow: 40px 10px 10px 20px #4d9fff;` 
-
