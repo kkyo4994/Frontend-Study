@@ -10,7 +10,7 @@ document.write(new Date());
 </script>
 ```
 
-- write 메소드를 사용하는 경우, </body> 앞이 아닌 필요한 위치에 기술한다
+- write 메소드를 사용하는 경우, </body> 태그의 앞이 아닌 필요한 위치에 기술한다
 
 ### write 메소드
 
