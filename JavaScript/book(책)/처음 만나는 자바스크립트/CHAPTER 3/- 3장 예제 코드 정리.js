@@ -60,3 +60,41 @@ if(hour >= 19 && hour < 21){
 } else {
     window.alert('도시락 하나 사세요.');
 }
+
+// 3-6) 1장, 2장, 3장... 이라고 출력
+// 1. 반복을 사용하기
+for(let i=1; i<=10; i++){
+    console.log(i);
+}
+// 2. 문자열 연결하기
+for(let i=1; i<=10; i++){
+    console.log(i + '장');
+}
+
+// 3-7) 콘솔로 몬스터를 물리치자
+// 1. while을 사용하기
+let enemy = 100;
+let attack;
+window.alert('대전 시작!');
+while(enemy > 0){
+    attack = Math.floor(Math.random()*30)+1;
+    console.log('몬스터에게' + attack + '의 피해를 입혔다!');
+    enemy = enemy - attack;
+}
+console.log('몬스터를 물리쳤다.');
+
+// 3-8) 세금 포함 가격 계산하기
+// 1. 함수 만들기 및 호출하기
+let total = function(price){
+    let tax = 0.08;
+    return price + price * tax;
+}
+console.log('커피 기계의 가격은' + total(8000) + '원(부가세 포함)입니다.');
+// 2. HTML에 출력하기
+let total = function(price){
+    let tax = 0.08;
+    return price + price * tax;
+}
+console.log('커피 기계의 가격은' + total(8000) + '원(부가세 포함)입니다.');
+document.getElementById('output').textContent = '커피 기계의 가격은 ' + total(8000) + '원(부과세 포함)입니다.';
+
