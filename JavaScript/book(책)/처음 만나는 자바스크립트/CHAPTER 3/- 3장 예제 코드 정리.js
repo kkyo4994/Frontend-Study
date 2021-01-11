@@ -98,3 +98,66 @@ let total = function(price){
 console.log('커피 기계의 가격은' + total(8000) + '원(부가세 포함)입니다.');
 document.getElementById('output').textContent = '커피 기계의 가격은 ' + total(8000) + '원(부과세 포함)입니다.';
 
+// 3-9) FizzBuzz
+// 1. 처리 흐름을 생각해서 함수 만들기
+let fizzbuzz = function(num){
+    if(num % 3 === 0 && num % 5 === 0){
+        return 'FizzBuzz!';
+    } else if(num % 3 === 0){
+        return 'Fizz!';
+    } else if(num % 5 ===0){
+        return 'Buzz!';
+    } else{
+        return num;
+    }
+}
+console.log(fizzbuzz(1));
+// 2. 30까지의 숫자로 피즈버즈
+let fizzbuzz = function(num){
+    if(num % 3 === 0 && num % 5 === 0){
+        return 'FizzBuzz!';
+    } else if(num % 3 === 0){
+        return 'Fizz!';
+    } else if(num % 5 ===0){
+        return 'Buzz!';
+    } else{
+        return num;
+    }
+}
+for(let i=1; i<=30; i++){
+    console.log(fizzbuzz(i));
+}
+
+// 3-10) 항목을 리스트로 표시하기
+// 1. 배열 작성하기 
+let todo = ['디자인 샘프 작성', '데이터 정리', '스터디 신청', '우유 사기'];
+console.log(todo[0]);
+// console.log(todo[4]) ㅡ> undefined가 표시된다.(정의되어있지않다)
+// 2. 배열의 모든 항목 읽어 오기
+let todo = ['디자인 샘프 작성', '데이터 정리', '스터디 신청', '우유 사기'];
+for(let i=0; i<todo.length; i++){
+    console.log(todo[i]);
+}
+// 3. 항목 추가하기
+let todo = ['디자인 샘프 작성', '데이터 정리', '스터디 신청', '우유 사기'];
+todo.push('치과 가기');
+for(let i=0; i<todo.length; i++){
+    console.log(todo[i]);
+}
+// + 항목을 HTML에 출력하기
+let todo = ['디자인 샘프 작성', '데이터 정리', '스터디 신청', '우유 사기'];
+todo.push('치과 가기');
+for(let i=0; i<todo.length; i++){
+    let li = document.createElement('li');
+    li.textContent = todo[i];
+    document.getElementById('list').appendChild(li);
+}
+
+// 3-11) 아이템 가격과 재고 표시하기
+// 1. 책 데이터 등록하기
+let jsbook = {title: '자바스크립트 입문', price: 2500, stock: 3};
+console.log(jsbook);
+console.log(jsbook.title);
+console.log(jsbook['price']);
+jsbook.stock = 10;
+console.log(jsbook.stock);
