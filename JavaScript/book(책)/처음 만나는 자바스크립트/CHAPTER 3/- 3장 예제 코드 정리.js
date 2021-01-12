@@ -161,3 +161,13 @@ console.log(jsbook.title);
 console.log(jsbook['price']);
 jsbook.stock = 10;
 console.log(jsbook.stock);
+// 2. 모든 프로퍼티 읽어 오기
+let fsbook = {title:'자바스크립트 입문', price: 2500, stock:3};
+for(let p in jsbook){
+    console.log(p + '=' + jsbook[p]);
+}
+// 3. HTML에 출력하기
+let fsbook = {title:'자바스크립트 입문', price: 2500, stock:3};
+document.getElementById('title').textContent = jsbook.title;
+document.getElementById('price').textContent = jsbook.price + '원';
+document.getElementById('stock').textContent = jsbook.stock;
