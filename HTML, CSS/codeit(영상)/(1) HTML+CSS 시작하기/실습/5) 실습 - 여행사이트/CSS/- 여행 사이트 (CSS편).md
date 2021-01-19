@@ -11,27 +11,31 @@
 - 7. 사진의 가로 길이는 페이지의 가로 길이의 90%입니다. 예를 들어 페이지의 가로 길이가 1,000px이면, 사진의 가로 길이는 900px이 되어야 합니다.
 
 ```css
-body{
-    text-align: center; /* 조건 1로 인해 바디 안에 있는 태그들은 다 가운데 정렬 */
+body{ /* 문서 전체 */
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* 조건 1로 인해 바디 안에 있는 태그들은 다 가운데 정렬 */
 }
-#logo{ /* 'travel'로고 */
+.logo{ /* 'travel'로고 */
     width: 165px; /* 너비(가로길이) : 165px */
     height: 58px; /* 높이(세로길이) : 58px */
     margin-top: 80px; /* 사진 위의 여백 : 80px */
 }
-#image{ 
-    width: 90%; /* 너비(가로길이) : 90% */
-    height: auto; /* 높이(세로길이) : 너비에 의해 자동으로 맞춰짐 */
+.menu{ /* a태그를 감싸고 있는 div */
+    margin-top: 60px; /* 윗 여백을 60px 준다 */
+    margin-bottom: 60px; /* 아래 여백을 60px 준다 */
 }
-.menu{
-    margin: 60px 10px; /* 위 아래로 60px, 간격을 10px */
-    display: inline-block; /* li 태그 자체가 블록(다음에 오는 요소는 자동으로 줄바꿈이 적용)이라 동일 라인에 여러 태그를 붙일 때 쓸 수 있는 인라인 블록을 쓴다. */
-}
-.menu > a { /* 메뉴 안에 있는 a의 태그 */
+.menu > a { /* div에 속해있는 a 태그들 */
     font-size: 16px; /* 글자 크기 16px */
     font-family: "Helvetica"; /* 글자 폰트 "Helvetica" */
     color : rgb(88, 89, 91); /* 글자 색깔 */
     text-decoration: none; /* 링크 밑에 생기는 밑줄 선 없앤다 */
+    margin-left: 10px; /* 왼쪽 여백을 10px 준다 */
+    margin-right: 10px; /* 오른쪽 여백을 10px 준다 */
+}
+.imgs{ /* 이미지 */
+    width: 90%; /* 너비를 90%로 적용 */
 }
 ```
 

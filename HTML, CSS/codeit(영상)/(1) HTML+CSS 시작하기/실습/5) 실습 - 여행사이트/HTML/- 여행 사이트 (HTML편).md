@@ -6,19 +6,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./styles.css">
     <meta charset="UTF-8">
-    <title>여행사이트</title>
+    <title>여행 사이트</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
 </head>
 <body>
-    <img id="logo" src="images/logo.jpg">
-    <ul>
-        <li class="menu"><a href="index.html"><b>Home</b></a></li>
-        <li class="menu"><a href="seoul.html">Seoul</a></li>
-        <li class="menu"><a href="tokyo.html">Tokyo</a></li>
-        <li class="menu"><a href="paris.html">Paris</a></li>
-    </ul>
-    <img id="image" src="images/home.jpg">
+  <img src="../images/logo.jpg" class="logo">  
+  <div class="menu">
+    <a href="#"><b>Home</b></a>
+    <a href="seoul.html">Seoul</a>
+    <a href="tokyo.html">Tokyo</a>
+    <a href="paris.html">Paris</a>
+  </div>
+  <img src="../images/home.jpg" class="imgs">
 </body>
 </html>
 ```
@@ -29,19 +29,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./styles.css">
     <meta charset="UTF-8">
-    <title>여행사이트</title>
+    <title>여행 사이트</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
 </head>
 <body>
-    <img id="logo" src="images/logo.jpg">
-    <ul>
-        <li class="menu"><a href="index.html">Home</a></li>
-        <li class="menu"><a href="seoul.html"><b>Seoul</b></a></li>
-        <li class="menu"><a href="tokyo.html">Tokyo</a></li>
-        <li class="menu"><a href="paris.html">Paris</a></li>
-    </ul>
-    <img id="image" src="images/seoul.jpg">
+  <img src="../images/logo.jpg" class="logo">  
+  <div class="menu">
+    <a href="index.html">Home</a>
+    <a href="#"><b>Seoul</b></a>
+    <a href="tokyo.html">Tokyo</a>
+    <a href="paris.html">Paris</a>
+  </div>
+  <img src="../images/seoul.jpg" class="imgs">
 </body>
 </html>
 ```
@@ -52,19 +52,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <link rel="stylesheet" href="./styles.css">
     <meta charset="UTF-8">
-    <title>여행사이트</title>
+    <title>여행 사이트</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
 </head>
 <body>
-    <img id="logo" src="images/logo.jpg">
-    <ul>
-        <li class="menu"><a href="index.html">Home</a></li>
-        <li class="menu"><a href="seoul.html">Seoul</a></li>
-        <li class="menu"><a href="tokyo.html">Tokyo</a></li>
-        <li class="menu"><a href="paris.html"><b>Paris</b></a></li>
-    </ul>
-    <img id="image" src="images/paris.jpg">
+  <img src="../images/logo.jpg" class="logo">  
+  <div class="menu">
+    <a href="index.html">Home</a>
+    <a href="seoul.html">Seoul</a>
+    <a href="tokyo.html">Tokyo</a>
+    <a href="#"><b>Paris</b></a>
+  </div>
+  <img src="../images/paris.jpg" class="imgs">
 </body>
 </html>
 ```
@@ -75,19 +75,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="./styles.css">
     <meta charset="UTF-8">
-    <title>여행사이트</title>
+    <title>여행 사이트</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
 </head>
 <body>
-    <img id="logo" src="images/logo.jpg">
-    <ul>
-        <li class="menu"><a href="index.html">Home</a></li>
-        <li class="menu"><a href="seoul.html">Seoul</a></li>
-        <li class="menu"><a href="tokyo.html"><b>Tokyo</b></a></li>
-        <li class="menu"><a href="paris.html">Paris</a></li>
-    </ul>
-    <img id="image" src="images/tokyo.jpg">
+  <img src="../images/logo.jpg" class="logo">  
+  <div class="menu">
+    <a href="index.html">Home</a>
+    <a href="seoul.html">Seoul</a>
+    <a href="#"><b>Tokyo</b></a>
+    <a href="paris.html">Paris</a>
+  </div>
+  <img src="../images/tokyo.jpg" class="imgs">
 </body>
 </html>
 ```
