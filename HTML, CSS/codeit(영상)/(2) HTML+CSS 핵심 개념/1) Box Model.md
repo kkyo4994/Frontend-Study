@@ -66,21 +66,13 @@
 
 * **텍스트와 이미지에 설정**할 수 있다
 
-### min-width, max-width
+#### 최소, 최대 가로 길이
 
-=> 최소, 최대 가로 길이
+: `min-width`, `max-width`로 길이 설정
 
-ex) 가로 길이 : 최대 1000px -> `max-width: 1000px;` 
+#### 최소, 최대 세로 길이
 
-​	  가로 길이 : 최소 2000px ->  `min-width: 2000px;` 
-
-### min-height, max-height
-
-=> 최소, 최대 세로 길이 
-
-ex) 세로 길이 : 최대 1000px -> `max-heigh: 1000px;` 
-
-​	  세로 길이 : 최소 2000px ->  `min-heigh: 2000px;` 
+: `min-height`, `max-height`로 길이 설정
 
 
 
@@ -88,43 +80,45 @@ ex) 세로 길이 : 최대 1000px -> `max-heigh: 1000px;`
 
 * 넘쳐나는 내용물을 `overflow` 속성으로 처리한다
 
-### visible
+#### visible
 
-=> visible 값을 사용하면 넘쳐나는 내용물이 **그대로 보인**다. (기본값)
+: 넘쳐나는 내용물이 **그대로 보인**다. (기본값)
 
-### hidden
+#### hidden
 
-=> hidden 값을 사용하면 넘쳐나는 부분을 **아예 숨겨줄** 수도 있다.
+: 넘쳐나는 부분을 **아예 숨겨줄** 수도 있다.
 
-### scroll
+#### scroll
 
-=> scroll 값을 사용하면 내용물을 숨겼다가, **사용자가 스크롤** 하면 볼 수 있게 해준다.
+: 내용물을 숨겼다가, **사용자가 스크롤** 하면 볼 수 있게 해준다.
 
 ### auto
 
-=> scroll과 비슷하지만 scroll은 항상 스크롤바를 보여주고 auto는 **내용물이 넘쳐날 때만** 스크롤바를 보여준다. 
+:  **내용물이 넘쳐날 때만** 스크롤바를 보여준다. 
+
+> scroll과 auto의 결과는 똑같지만 다른 점은 scroll은 항상 스크롤바를 보여준다는 것이다.
 
 
 
 ## border 정리
 
-* 값을 쓰는 순서는 굵기, 스타일(실선, 접선 등), 색이다
+* 값을 쓰는 순서는 **굵기, 스타일 (실선, 접선 등), 색**이다
 
-[사용하는 방법]
+### border을 주는 방법
 
-#### 한 줄에 끝내기
+#### 1) 한 줄에 끝내기
 
-ex) `border: 2px solid #4d9fff;`  
+: 일방적인 방법으로, border 속성으로 **한 줄에 다 쓰는** 것. (모두 같은 테두리가 생겨난다.)
 
-> solid는 실선이고 dotted는 얇은 접선이고 dashed는 두꺼운 접선이다
+#### 2) 명확하게 나누기
 
-#### 명확하게 나누기
+:  `border-style`, `border-color`, `border-width` 속성을 써서 테두리의 **스타일을 하나씩 지정**.
 
-=>  border-style, border-color, border-width 속성을 써서 **테두리의 스타일을 하나씩 지정해**주는 것
+#### 3) 다채로운 테두리
 
-ex) ` border-style: dotted; border-color: red; border-width: 5px;`  
+: `border-top: 3px dotted #4d9fff;`, ` border-bottom: 2px dashed red;` 와 같이 **다 다르게 설정**.
 
-#### 테투리 없애는 방법 
+###### + 테투리 없애는 방법 
 
 > 1. `border: none;`
 > 2. `border: 0;`

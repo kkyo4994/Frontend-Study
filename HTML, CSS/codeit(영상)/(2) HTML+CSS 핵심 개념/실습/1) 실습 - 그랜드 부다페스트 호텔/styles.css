@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 500px;
+    height: 500px;
+  }
+  
+  .info {
+    /* 
+    1. 세로 길이를 220px로 설정해주세요.
+    2. 3px 두께에 색은 #B72920인 테두리를 입혀주세요.
+    3. 문구를 스크롤하면서 볼 수 있도록 overflow 속성을 설정해주세요.
+    4. 글이 테두리에 너무 붙어 있지 않도록 15px의 여유 공간을 주세요.
+    */
+    height: 220px;
+    border: 3px solid #B72920;
+    overflow: scroll;
+    padding: 15px;
+  }
+  
+  img {
+    width: 100%;
+    display: block;
+  }
+  
+  h1 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 0;
+  }
