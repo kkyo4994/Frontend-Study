@@ -81,3 +81,62 @@ document.getElementById('form').onsubmit = function(){
         Cookies.set('answerd', 'yes', {expires: 7});
     }
 };
+document.getElementById('remove').onclick = function(){
+    Cookies.remove('answered');
+};
+
+// 5-4) 사진 변경하기
+// 1) 새로운 HTML 속성 사용하기
+var thumbs = document.querySelectorAll('.thumb');
+for(var i = 0; i< thumbs.length; i++){
+    thumbs[i].onclick = function(){
+        console.log(this.CDATA_SECTION_NODE.image);
+    };
+}
+// 2. 사진 변경하기
+var thumbs = document.querySelectorAll('.thumb');
+for(var i = 0; i< thumbs.length; i++){
+    thumbs[i].onclick = function(){
+        document.getElementById('bigimg').src = this.dataset.image;
+    };
+}
+
+// 5-5) 슬라이드쇼
+// 1) 버튼 클릭으로 사진 변경하기
+var images = ['images/image1.jpg', 'images/image2.jpg', 'images/image3.jpg', 'images/image4.jpg', 'images/image5.jpg'];
+var current = 0;
+var changeImage = function(num){
+    if(current + num >= 0 && current + num < images.length){
+        current += num;
+        document.getElementById('main_image').src = images[current];
+    }
+};
+
+document.getElementById('prev').onclick = function(){
+    changeImage(-1);
+};
+document.getElementById('next').onclick = function(){
+    changeImage(1);
+};
+// 2) 몇 번째 사진인지 표시하기
+var images = ['images/image1.jpg', 'images/image2.jpg', 'images/image3.jpg', 'images/image4.jpg', 'images/image5.jpg'];
+var current = 0;
+var pageNum = function(){
+    document.getElementById('page').textContent = (current + 1) + '/' + images.length;
+}
+var changeImage = function(num){
+    if(current + num >= 0 && current + num < images.length){
+        current += num;
+        document.getElementById('main_image').src = images[current];
+        pageNum();
+    }
+};
+
+pageNum();
+
+document.getElementById('prev').onclick = function(){
+    changeImage(-1);
+};
+document.getElementById('next').onclick = function(){
+    changeImage(1);
+};
