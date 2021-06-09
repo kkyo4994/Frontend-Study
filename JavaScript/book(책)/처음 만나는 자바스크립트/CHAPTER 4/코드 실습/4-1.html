@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" id="form">
+        <input type="text" name="word">
+        <input type="submit" value="검색">
+    </form>
+    <p id="output"></p>
+    <script>
+        document.getElementById('form').onsubmit = function(){
+            var serach = document.getElementById('form').word.value;
+            document.getElementById('output').textContent = '[' + serach +'] 검색 중...';
+            return false;
+        };
+    </script>
+</body>
+</html>

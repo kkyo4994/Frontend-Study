@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <p>최종 접속 일시 : <span id="time"></span></p>
+    <script>
+        let now = new Date();
+        let year = now.getFullYear();
+        let month = now.getMonth();
+        let date = now.getDate();
+        let hour = now.getHours();
+        let min = now.getMinutes();
+        let ampm = '';
+        if(hour<12){
+            ampm = 'a.m';
+        } else{
+            ampm = 'p.m';
+        }
+
+        let output = year + '/' + (month + 1) + '/' + data + ' ' + hour + ':' + min;
+        document.getElementById('time').textContent = output;
+    </script>
+</body>
+</html>
