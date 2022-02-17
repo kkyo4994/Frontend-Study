@@ -42,6 +42,5 @@
 
 
 
-* 이 미디어 쿼리를 정리하기 위해 참고한 링크
-  [미디어_쿼리](http://www.tcpschool.com/css/css3_expand_mq, "google link")
+> ?  이 미디어 쿼리를 정리하기 위해 참고한 링크 => http://www.tcpschool.com/css/css3_expand_mq
 
