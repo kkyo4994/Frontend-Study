@@ -60,6 +60,5 @@
 
 
 
-* 이 picture를 정리하기 위해 참고한 링크
-  [picture](https://blogpack.tistory.com/1000, "google link")
+> ? 이 picture를 정리하기 위해 참고한 링크 => https://blogpack.tistory.com/1000
 
