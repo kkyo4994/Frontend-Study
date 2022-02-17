@@ -26,7 +26,6 @@
 
 
 
-* 이 뷰포트를 정리하기 위해 참고한 링크
-  [vw, vh, vim, vmax 속성](https://nykim.work/85, "google link")
+> ? 이 뷰포트를 정리하기 위해 참고한 링크 => https://nykim.work/85
 
 
